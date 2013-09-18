@@ -159,7 +159,7 @@ static void parse_args(int argc, char *argv[])
                    case 'f': 
                       if (m + 1 >= l)
                       {
-                         fprintf(stderr, "Argument \"-t\" requires a port number!\n");
+                         fprintf(stderr, "Argument \"-f\" requires format!\n");
                          exit(EXIT_FAILURE);
                       }
                       else
